@@ -1,0 +1,386 @@
+
+/*
+ * ==========================================================
+ * Grid
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .grid-1, #zone-footer-wrapper .grid-2, #zone-footer-wrapper .grid-3, #zone-footer-wrapper .grid-4, #zone-footer-wrapper .grid-5, #zone-footer-wrapper .grid-6, #zone-footer-wrapper .grid-7, #zone-footer-wrapper .grid-8, #zone-footer-wrapper .grid-9, #zone-footer-wrapper .grid-10, 
+#zone-footer-wrapper .grid-11, #zone-footer-wrapper .grid-12, #zone-footer-wrapper .grid-13, #zone-footer-wrapper .grid-14, #zone-footer-wrapper .grid-15, #zone-footer-wrapper .grid-16 {
+  display: inline;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#zone-footer-wrapper .push-1, .pull-1, #zone-footer-wrapper .push-2, .pull-2, #zone-footer-wrapper .push-3, .pull-3, #zone-footer-wrapper .push-4, .pull-4,
+#zone-footer-wrapper .push-5, .pull-5, #zone-footer-wrapper .push-6, .pull-6, #zone-footer-wrapper .push-7, .pull-7, #zone-footer-wrapper .push-8, .pull-8,
+#zone-footer-wrapper .push-9, .pull-9, #zone-footer-wrapper .push-10, .pull-10, #zone-footer-wrapper .push-11, .pull-11, #zone-footer-wrapper .push-12, .pull-12,
+#zone-footer-wrapper .push-13, .pull-13, #zone-footer-wrapper .push-14, .pull-14, #zone-footer-wrapper .push-15, .pull-15, #zone-footer-wrapper .push-16, .pull-16 {
+  position: relative;
+}
+
+/*
+ * ==========================================================
+ * Alpha - Omega
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .alpha {
+  margin-left: 0;
+}
+
+#zone-footer-wrapper  .omega {
+  margin-right: 0;
+}
+
+/*
+ * ==========================================================
+ * Container
+ * ==========================================================
+ */
+
+body {
+  min-width: 960px;
+}
+
+#zone-footer-wrapper .container-16 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+/*
+ * ==========================================================
+ * Columns
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .container-16 .grid-1 {
+  width: 40px;
+}
+
+#zone-footer-wrapper .container-16 .grid-2 {
+  width: 100px;
+}
+
+#zone-footer-wrapper .container-16 .grid-3 {
+  width: 160px;
+}
+
+#zone-footer-wrapper .container-16 .grid-4 {
+  width: 220px;
+}
+
+#zone-footer-wrapper .container-16 .grid-5 {
+  width: 280px;
+}
+
+#zone-footer-wrapper .container-16 .grid-6 {
+  width: 340px;
+}
+
+#zone-footer-wrapper .container-16 .grid-7 {
+  width: 400px;
+}
+
+#zone-footer-wrapper .container-16 .grid-8 {
+  width: 460px;
+}
+
+#zone-footer-wrapper .container-16 .grid-9 {
+  width: 520px;
+}
+
+#zone-footer-wrapper .container-16 .grid-10 {
+  width: 580px;
+}
+
+#zone-footer-wrapper .container-16 .grid-11 {
+  width: 640px;
+}
+
+#zone-footer-wrapper .container-16 .grid-12 {
+  width: 700px;
+}
+
+#zone-footer-wrapper .container-16 .grid-13 {
+  width: 760px;
+}
+
+#zone-footer-wrapper .container-16 .grid-14 {
+  width: 820px;
+}
+
+#zone-footer-wrapper .container-16 .grid-15 {
+  width: 880px;
+}
+
+#zone-footer-wrapper .container-16 .grid-16 {
+  width: 940px;
+}
+
+/*
+ * ==========================================================
+ * Prefix
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .container-16 .prefix-1 {
+  padding-left: 60px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-2 {
+  padding-left: 120px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-3 {
+  padding-left: 180px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-4 {
+  padding-left: 240px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-5 {
+  padding-left: 300px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-6 {
+  padding-left: 360px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-7 {
+  padding-left: 420px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-8 {
+  padding-left: 480px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-9 {
+  padding-left: 540px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-10 {
+  padding-left: 600px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-11 {
+  padding-left: 660px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-12 {
+  padding-left: 720px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-13 {
+  padding-left: 780px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-14 {
+  padding-left: 840px;
+}
+
+#zone-footer-wrapper .container-16 .prefix-15 {
+  padding-left: 900px;
+}
+
+/*
+ * ==========================================================
+ * Suffix
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .container-16 .suffix-1 {
+  padding-right: 60px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-2 {
+  padding-right: 120px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-3 {
+  padding-right: 180px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-4 {
+  padding-right: 240px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-5 {
+  padding-right: 300px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-6 {
+  padding-right: 360px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-7 {
+  padding-right: 420px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-8 {
+  padding-right: 480px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-9 {
+  padding-right: 540px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-10 {
+  padding-right: 600px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-11 {
+  padding-right: 660px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-12 {
+  padding-right: 720px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-13 {
+  padding-right: 780px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-14 {
+  padding-right: 840px;
+}
+
+#zone-footer-wrapper .container-16 .suffix-15 {
+  padding-right: 900px;
+}
+
+/*
+ * ==========================================================
+ * Push
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .container-16 .push-1 {
+  left: 60px;
+}
+
+#zone-footer-wrapper .container-16 .push-2 {
+  left: 120px;
+}
+
+#zone-footer-wrapper .container-16 .push-3 {
+  left: 180px;
+}
+
+#zone-footer-wrapper .container-16 .push-4 {
+  left: 240px;
+}
+
+#zone-footer-wrapper .container-16 .push-5 {
+  left: 300px;
+}
+
+#zone-footer-wrapper .container-16 .push-6 {
+  left: 360px;
+}
+
+#zone-footer-wrapper .container-16 .push-7 {
+  left: 420px;
+}
+
+#zone-footer-wrapper .container-16 .push-8 {
+  left: 480px;
+}
+
+#zone-footer-wrapper .container-16 .push-9 {
+  left: 540px;
+}
+
+#zone-footer-wrapper .container-16 .push-10 {
+  left: 600px;
+}
+
+#zone-footer-wrapper .container-16 .push-11 {
+  left: 660px;
+}
+
+#zone-footer-wrapper .container-16 .push-12 {
+  left: 720px;
+}
+
+#zone-footer-wrapper .container-16 .push-13 {
+  left: 780px;
+}
+
+#zone-footer-wrapper .container-16 .push-14 {
+  left: 840px;
+}
+
+#zone-footer-wrapper .container-16 .push-15 {
+  left: 900px;
+}
+
+/*
+ * ==========================================================
+ * Pull
+ * ==========================================================
+ */
+
+#zone-footer-wrapper .container-16 .pull-1 {
+  left: -60px;
+}
+
+#zone-footer-wrapper .container-16 .pull-2 {
+  left: -120px;
+}
+
+#zone-footer-wrapper .container-16 .pull-3 {
+  left: -180px;
+}
+
+#zone-footer-wrapper .container-16 .pull-4 {
+  left: -240px;
+}
+
+#zone-footer-wrapper .container-16 .pull-5 {
+  left: -300px;
+}
+
+#zone-footer-wrapper .container-16 .pull-6 {
+  left: -360px;
+}
+
+#zone-footer-wrapper .container-16 .pull-7 {
+  left: -420px;
+}
+
+#zone-footer-wrapper .container-16 .pull-8 {
+  left: -480px;
+}
+
+#zone-footer-wrapper .container-16 .pull-9 {
+  left: -540px;
+}
+
+#zone-footer-wrapper .container-16 .pull-10 {
+  left: -600px;
+}
+
+#zone-footer-wrapper .container-16 .pull-11 {
+  left: -660px;
+}
+
+#zone-footer-wrapper .container-16 .pull-12 {
+  left: -720px;
+}
+
+#zone-footer-wrapper .container-16 .pull-13 {
+  left: -780px;
+}
+
+#zone-footer-wrapper .container-16 .pull-14 {
+  left: -840px;
+}
+
+#zone-footer-wrapper .container-16 .pull-15 {
+  left: -900px;
+}

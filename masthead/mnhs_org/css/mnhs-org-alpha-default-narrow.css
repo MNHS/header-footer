@@ -1,0 +1,20 @@
+.homepage #zone-content{
+	position:relative;
+    z-index:10;
+	top:-30px;
+}
+.visit .section-menu-column{
+display:block;
+}
+.node-feature.twitter{
+	display:block;	
+}
+.node-feature {
+	padding:10px;	
+}
+.node-feature .left{
+	float:left;
+}
+.node-feature h3 {
+font-size: 18px;
+}

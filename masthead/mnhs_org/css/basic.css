@@ -1,0 +1,77 @@
+/* MHS BRAND COLORS */
+.yellow{color:#eeb111;}
+.blue{color:#00a5b7;}
+.red{color:#c41230;}
+.orange{color:#f58025;}
+.pale-yellow{color:#f7e6c0;}
+.light-gray{color:#dae0d9;}
+.gray{color:#36424a; }
+
+/*.bg-yellow{background-color:#eeb111; box-shadow: 10px 0 0 #eeb111, -10px 0 0 #eeb111;}
+.bg-blue{background-color:#00a5b7;box-shadow: 10px 0 0 #00a5b7, -10px 0 0 #00a5b7}
+.bg-red{background-color:#c41230;box-shadow: 10px 0 0 #c41230, -10px 0 0 #c41230}
+.bg-orange{background-color:#f58025;box-shadow: 10px 0 0 #eeb111, -10px 0 0 #eeb111}
+.bg-pale-yellow{background-color:#f7e6c0;box-shadow: 10px 0 0 #f7e6c0, -10px 0 0 #f7e6c0}
+.bg-light-gray{background-color:#dae0d9;box-shadow: 10px 0 0 #dae0d9, -10px 0 0 #dae0d9}
+.bg-gray{background-color:#36424a; box-shadow: 10px 0 0 #36424a, -10px 0 0 #36424a}
+*/
+small {
+	font-size: .85em;
+}
+.normal{
+	font-weight:normal;	
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.left-image, .image-landscape-left, .image-portrait-left, span[data-picture-align="left"], img[data-picture-align="left"] {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.right-image, .image-landscape-right, .image-portrait-right, .node-type-internship .field-type-image img, .field-name-field-volunteer-image img, span[data-picture-align="right"], img[data-picture-align="right"] {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.clear {
+	clear: both;
+}
+.clear.pad-top{
+	padding-top:4em;
+}
+.no-margin{
+	margin:0;	
+}
+body img.no-border, .no-border img{
+	border:0!important;
+	padding:0!important;
+	margin:0!important;	
+	background-color:transparent!important;
+}
+.white{
+	color:#fff;	
+}
+.text-shadow{
+text-shadow:2px 2px 2px rgba(0, 0, 0, .8);
+}
+.hidden {
+	display: none!important;
+}
+.read-more{
+	float:left;
+	padding-right:20px;
+	padding-top:5px;
+	font-size:.9em;
+	color:#903!important;
+}	
+h1.section-title{
+	background:#fff;	
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	padding:.125em .5em;
+	margin-top:40px;
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 200; font-style: normal;
+	font-size:2em;
+	
+}

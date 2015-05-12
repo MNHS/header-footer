@@ -1,0 +1,80 @@
+/*************************************
+ * generic styling for ALS elements
+ ************************************/
+
+.als-container {
+	position: relative;
+	width: 1180px;
+	margin: 0px auto;
+	z-index: 0;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	width:940px;
+	margin: 0px auto;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	width:940px;
+}
+
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+/*************************************
+ * specific styling for #demo2
+ ************************************/
+
+#demo2 {
+	margin: 40px auto;
+}
+
+#demo2 .als-item {
+	min-height: 120px;
+	min-width: 100px;
+	text-align: ;
+}
+.sites-column{
+	width:210px;
+	float:left;	
+	margin:0 10px;
+}
+.alpha{
+	margin-left:0;	
+}
+.omega{
+	margin-right:0;	
+}
+
+#demo2 .als-item img {
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#demo2 .als-prev, #demo2 .als-next {
+	float:none!important;
+	top: 40px;
+}
+
+#demo2 .als-prev {
+	left: 000px;
+}
+
+#demo2 .als-next {
+	right: 00px;
+}

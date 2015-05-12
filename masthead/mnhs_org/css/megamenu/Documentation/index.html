@@ -1,0 +1,990 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Responsive Mega Menu Complete Set</title>
+	
+	<meta name="description" content="Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!">
+	<meta name="author" content="Pixelworkshop">
+	<meta name="copyright" content="Pixelworkshop">
+	<meta name="generator" content="Documenter v1.4 http://rxa.li/documenter">
+	<meta name="date" content="2011-07-05T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<script src="js/jquery.1.5.1.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	<link rel="stylesheet" href="css/shDocumenter.css" media="screen">
+	<script src="js/shCore.js"></script>
+	<script src="js/shBrushXml.js"></script>
+	<script src="js/shBrushJScript.js"></script>
+	<script>SyntaxHighlighter.defaults['toolbar'] = false;SyntaxHighlighter.all();</script>
+
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{background-image:url(assets/images/image_1.jpg);}
+		a{color:#0000FF;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ol a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ol{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ol a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ol a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ol a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#changelog">Changelog</a></li>
+			<li><a href="#upgrading">Upgrading the Menu</a></li>
+			<li><a href="#quick_menu_setup">Quick Menu Setup</a></li>
+			<li><a href="#menu_color_variants">Menu Color Variants</a></li>
+			<li><a href="#menu_effects_javascript_files">Menu Effects, Javascript Files</a></li>
+			<li><a href="#html_structure">HTML Structure</a></li>
+			<li><a href="#fly_out_menu">Fly-Out Menu</a></li>
+			<li><a href="#vertical_menu">Vertical Menu</a></li>
+			<li><a href="#mobile_devices">Mobile Devices</a></li>
+			<li><a href="#contact_form">Contact Form</a></li>
+			<li><a href="#css_files_and_structure">CSS Files and Structure</a></li>
+			<li><a href="#sources_and_credits">Sources and Credits</a></li>
+
+		</ol>
+		<div id="documenter_copyright">Copyright Pixelworkshop 2012<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.4</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>Responsive Mega Menu Complete Set</h1><hr>
+    <ul>
+    <li>Created : 01/07/2011</li>
+    <li>Latest Update : 03/23/2014</li>
+    <li>Current Version : 4.0</li>
+    <li>By : Pixelworkshop</li>
+    </ul>
+    <p>Thank you for purchasing my work. If you have any questions that are beyond the scope of this help file, please feel free to email via my <a href="http://codecanyon.net/user/Pixelworkshop">user page contact form here</a> (in the sidebar). Thanks so much!</p>
+    </section>
+    
+
+<section id="changelog">
+	<h3>Changelog</h3><hr class="notop">
+<h5>
+	03/23/2014 – Version 4.0
+</h5>
+<ul>
+	<li>Revamped and improved <strong>megamenu.js</strong></li>
+	<li>Added a working contact form with a captcha</li>
+	<li>Cosmetic changes in the CSS for the form elements</li>
+</ul>
+<h5>
+	01/18/2014 – Version 3.32
+</h5>
+<ul>
+	<li>Improved the script <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	10/29/2013 – Version 3.31
+</h5>
+<ul>
+	<li>Improved the script <strong>megamenu.js</strong> to handle better the switch between the desktop and mobile versions</li>
+</ul>
+<h5>
+	03/02/2013 – Version 3.3
+</h5>
+<ul>
+	<li>Improved mobile compatibility in <strong>megamenu.js</strong></li>
+	<li>Added the <a href="http://eightmedia.github.com/hammer.js/">Hammer</a> plugin for better mobile compatibility</li>
+</ul>
+<h5>
+	02/21/2013 – Version 3.21
+</h5>
+<ul>
+	<li>Fixed a selector issue in <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	02/13/2013 - Version 3.2
+</h5>
+<ul>
+	<li>Improved the script in <strong>megamenu.js</strong></li>
+	<li>Removed the custom Modernizr biuld in <strong>megamenu_plugins.js</strong></li>
+	<li>Added a fixed version of the menu (changes in <strong>megamenu.css</strong>)</li>
+	<li>Changed the behavior of the menu on mobile devices : the menu bar becomes a button to toggle the menu on small screen resolutions.</li>
+</ul>
+<h5>
+	01/18/2013 - Version 3.11
+</h5>
+<ul>
+	<li>Fixed an issue occurring on mobile devices in <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	01/18/2013 - Version 3.1
+</h5>
+<ul>
+	<li>Made some improvements in <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	01/17/2013 - Version 3.01
+</h5>
+<ul>
+	<li>Fixed a minor issue in <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	12/06/2012 - Version 3.0 - Major Update !
+</h5>
+<ul>
+	<li>Rewrote the entire script <strong>megamenu.js</strong></li>
+	<li>Modified <strong>megamenu.css</strong> and added Media Queries</li>
+	<li>The whole menu is now fully responsive</li>
+	<li>Adapted all the HTML files according to the above changes</li>
+	<li>Dropped IE6 support</li>
+</ul>
+<p>This is an important update that was necessary to improve this menu and make it responsive. Updating from any previous version will require to check all the assets and adapt your HTML markup. There are so many changes that you won't be able to update just by replacing the javascript and CSS files.</p>
+<h5>
+	06/23/2012 - Version 2.11</h5>
+<ul>
+	<li>Fixed an issue occurring under IE7 in <strong>megamenu.js</strong></li>
+</ul>
+<h5>
+	04/17/2012 - Version 2.1</h5>
+<ul>
+	<li>Improved compatibility with touch screen devices (added the ability to open and close drop downs)</li>
+</ul>
+<h5>
+	03/17/2012 - Version 2.0</h5>
+<ul>
+	<li>Rewrote entirely the mega menu script</li>
+    <li>Added a javascript file containing the script plugins (HoverIntent and Modernizr)</li>
+    <li>Removed the csshover3.htc</li>
+    <li>IE6 now requires the <a href="http://code.google.com/p/ie7-js/">ie7-js</a> library to work properly</li>
+    <li>Updated jQuery</li>
+</ul>
+<p><strong>IMPORTANT</strong> : since the version 2.0, and because the whole script was changed, some comments on the item page are not relevant anymore.</p>
+<h5>
+	11/01/2011 - Version 1.4</h5>
+<ul>
+	<li>Improved compatibility with touchscreen devices</li>
+</ul>
+<h5>
+	10/27/2011 - Version 1.3</h5>
+<ul>
+	<li>Improved / modified the mega menu CSS markup</li>
+	<li>Reintroduced form elements (and fixed an issue with the drop downs closing when clicking on form elements)</li>
+    <li>Changed important classes (CSS)</li>
+</ul>
+<h5>
+	07/17/2011 - Version 1.2</h5>
+<ul>
+	<li>Fixed an issue with the "hover fade" effect</li>
+	<li>Added 2 effects : slide and toggle on mouse click (open / close)</li>
+</ul>
+<h5>
+	07/06/2011 - Version 1.1</h5>
+<ul>
+	<li>Updated jquery</li>
+	<li>Reorganized all the files and folders</li>
+	<li>All menu variants use the same assets (JS, CSS)</li>
+	<li>Removed the cufon examples</li>
+	<li>Removed the file layout.css which was not necessary</li>
+	<li>Enabled IE6 compatibility</li>
+</ul>
+<h5>
+	01/07/2011 - Version 1.0</h5>
+<ul>
+	<li>Initial Release.</li>
+</ul>
+</section>
+
+
+
+<section id="upgrading">
+
+	<h3>Upgrading the Menu</h3><hr class="notop">
+	<p>As the version 4.0 brings major changes, here's a quick guide to upgrade from the version 3.32.</p>
+	<p>First you'll need to replace these script files :</p>
+	<ul>
+		<li><strong>megamenu_plugins.js</strong></li>
+		<li><strong>megamenu.js</strong> (or megamenu.min.js if you use the minified version)</li>
+	</ul>
+	<p>In <strong>megamenu.css</strong>, only the section '8. Form Elements' has been changed due to the addition of the contact form, nothing else was modified.</p>
+	<p>If you plan to use the contact form, you'll also need to add the file <strong>contact.php</strong> and add your email address.</p>
+
+</section>
+
+
+
+<section id="quick_menu_setup">
+
+	<h3>Quick Menu Setup</h3><hr class="notop">
+	<p>To start integrating this menu, there are 4 necessary files :</p>
+	<ul>
+		<li>css/megamenu.css</li>
+		<li>js/jquery.js</li>
+		<li>js/megamenu_plugins.js</li>
+		<li>js/megamenu.js</li>
+	</ul>
+	<p>From the version 3.0, IE6 is not supported anymore.</p>
+	<p>In your HTML file, just make sure that you link properly to each of the above files.</p>
+	<p>In the folder <strong>img</strong>, there are a few images that should be included too, the 6 photo placeholders are only illustrative and all other graphics are used to style the menu or its content.</p>
+	<p>Now it&#39;s time to add the HTML : in the package, there are 5 HTML files all showing a possible use / variant of the menu. You can choose either the horizontal or the vertical menu, they use exactly the same CSS and javascript but the HTML markup is slightly different : there are 2 specific classes applied to the menu containers and an additional holder for each drop down.</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container megamenu_dark_bar megamenu_light&quot;&gt;
+
+	    &lt;ul class="megamenu"&gt;
+
+	    MEGA MENU CONTENT
+
+	    &lt;/ul&gt;
+
+	&lt;/div&gt;</pre>
+	<p>And from the version 3.2, you can use a fixed version of the menu. It'll stick to the top of the browser when you'll use this code :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container megamenu_fixed megamenu_dark_bar megamenu_light&quot;&gt;
+
+	    &lt;ul class="megamenu"&gt;
+
+	    MEGA MENU CONTENT
+
+	    &lt;/ul&gt;
+
+	&lt;/div&gt;</pre>
+	<p>The above code is for the horizontal menu. To enable the vertical variant, you'll use this code :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container_vertical megamenu_dark_bar megamenu_light&quot;&gt;
+
+	    &lt;ul class="megamenu megamenu_vertical"&gt;
+
+	    MEGA MENU CONTENT
+
+	    &lt;/ul&gt;
+
+	&lt;/div&gt;</pre>
+
+</section>
+
+
+
+<section id="menu_color_variants">
+
+	<h3>Menu Color Variants</h3><hr class="notop">
+	<p>For both variants (horizontal and vertical), you can simply change a few colors by modifying the classes of the menu container :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container megamenu_dark_bar megamenu_light&quot;&gt;</pre>
+	<p>You can first choose a color for the menu bar :</p>
+	<ul>
+		<li>megamenu_dark_bar</li>
+		<li>megamenu_light_bar</li>
+	</ul>
+	<p>Then the color of the drop downs :</p>
+	<ul>
+		<li>megamenu_dark</li>
+		<li>megamenu_light</li>
+	</ul>
+	<p>Those 2 options above are necessary, the elements won't be displayed properly if you don't use them.</p>
+	<p>The colors that ware available in the previous versions of the menu are still available, and to use them, all you have to do is to add another class to the menu container. For example if you want to set the blue color, the code will be :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container megamenu_dark_bar megamenu_light megamenu_bluetheme&quot;&gt;</pre>
+	<p>Applying one of these classes will only modify the menu bar color and the color of the links / list elements. You can choose between the following classes :</p>
+	<ul>
+		<li>megamenu_bluetheme</li>
+		<li>megamenu_browntheme</li>
+		<li>megamenu_cherrytheme</li>
+		<li>megamenu_coffeetheme</li>
+		<li>megamenu_greentheme</li>
+		<li>megamenu_greytheme</li>
+		<li>megamenu_oceantheme</li>
+		<li>megamenu_orangetheme</li>
+		<li>megamenu_pinktheme</li>
+		<li>megamenu_purpletheme</li>
+		<li>megamenu_redtheme</li>
+		<li>megamenu_tantheme</li>
+		<li>megamenu_yellowtheme</li>
+	</ul>
+
+	<p>All these additional colors are defined in &quot;megamenu.css&quot;, in the section labelled <strong>07 ADDITIONAL THEMES (OPTIONNAL)</strong></p>
+	<p>For the vertical variant of the menu, those same color classes can be used.</p>
+	<p>If you want to find a color, I recommend you to have a look to <a href="http://www.colourlovers.com/">Colour Lovers</a>, it&#39;s a fantastic site where you can find nice combinations of colors as well as separate colors.</p>
+
+</section>
+
+
+
+<section id="menu_effects_javascript_files">
+
+	<h3>Menu Effects, Javascript Files</h3><hr class="notop">
+	<p>Before you include the javascript files into your HTML pages, make sure that you don't load jQuery several times, it's unnecessary and can cause issues.</p>
+	<p>This Mega Menu comes with 9 jQuery-powered effects which are applied as following (it's the script that you'll find at the top of all HTML files) :</p>
+	<pre class="brush: js">
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/megamenu_plugins.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot; src=&quot;js/megamenu.js&quot;&gt;&lt;/script&gt;
+	&lt;script type=&quot;text/javascript&quot;&gt;
+	$(document).ready(function($){
+	    $('.megamenu').megaMenuCompleteSet({
+	        menu_speed_show : 300, // Time (in milliseconds) to show a drop down
+	        menu_speed_hide : 200, // Time (in milliseconds) to hide a drop down
+	        menu_speed_delay : 200, // Time (in milliseconds) before showing a drop down
+	        menu_effect : 'hover_fade', // Drop down effect, choose between 'hover_fade', 'hover_slide', etc.
+	        menu_click_outside : 1, // Clicks outside the drop down close it (1 = true, 0 = false)
+	        menu_show_onload : 0 // Drop down to show on page load (type the number of the drop down, 0 for none)
+	    });
+	});
+	&lt;/script&gt;</pre>
+	<p>The first line loads jQuery, as said above, if you already use it in your pages, avoid loading it several times.</p>
+	<p>The second line links to the mega menu script plugins (containing HoverIntent and Modernizr) followed by the megamenu script (both should be placed in this order after the jquery framework), and the small code initializes the mega menu by applying an &quot;hover fade&quot; effect (fading the drop down on mouse hover) with a few other options. To change the effect, simply replace &quot;hover_fade&quot; by one of the following values :</p>
+	<ul>
+		<li>hover_fade</li>
+		<li>hover_slide</li>
+		<li>hover_toggle</li>
+		<li>click_fade</li>
+		<li>click_slide</li>
+		<li>click_toggle</li>
+		<li>open_close_fade</li>
+		<li>open_close_slide</li>
+		<li>open_close_toggle</li>
+	</ul>
+	<p>Here are some explanations of those effects :</p>
+	<ul>
+		<li>hover_fade : fade effect on mouse hover</li>
+		<li>hover_slide : slide effect on mouse hover</li>
+		<li>hover_toggle : toggle effect on mouse hover</li>
+		<li>click_fade : the drop down fades in on mouse click (and remains visible as long as the mouse hovers on it)</li>
+		<li>click_slide : the drop down slides on mouse click (and remains visible as long as the mouse hovers on it)</li>
+		<li>click_toggle : toggle effect on mouse click (and the drop down remains visible as long as the mouse hovers on it)</li>
+		<li>open_close_fade : 1 click to open, 1 click to close (fade effect)</li>
+		<li>open_close_slide : 1 click to open, 1 click to close (slide effect)</li>
+		<li>open_close_toggle : 1 click to open, 1 click to close (toggle effect)</li>
+	</ul>
+	<p>In the script that appears within the HTML pages, you also have a few other options (explained by the comments) :</p>
+	<ul>
+		<li>menu_speed_show</li>
+		<li>menu_speed_hide</li>
+		<li>menu_speed_delay</li>
+		<li>menu_effect</li>
+		<li>menu_click_outside</li>
+		<li>menu_show_onload</li>
+	</ul>
+	<p>Only the 2 last options are not made to be combined with all the effects, they work only with : open_close_fade, open_close_slide, open_close_toggle. That's because those effects show the drop downs and keep them visible until the user clicks somewhere else (and all other effects require a mouse hover so once you hover outside the drop down, it's hidden.</p>
+	<p>By activating the option menu_click_outside, it closes any visible drop down by clicking outside it (or anywhere else on the page).</p>  
+	<p>The following option, menu_show_onload, can be used by entering the number of the drop down you want to see already visible when the page loads. If for example you want the visitors to see the 3rd drop down already opened when they reach your site, just put the value '3' there.</p>
+	<p>There&#39;s also a minified version of the mega menu script situated in the &quot;js&quot; folder.</p>
+
+</section>
+
+
+
+<section id="html_structure">
+
+	<h3>HTML Structure</h3><hr class="notop">
+	<p>In the package, you&#39;ll find 5 coded HTML pages. Those files will show you different possibilities in terms of typography and some columns variants, there are many more possibilities and this menu is quite flexible so feel free to create your own layouts.</p>
+	<p>Since the version 3.0, all the menu works with percentages instead of pixel values. It means that the menu (and all drop downs) will expand to the size of their container. In all the page examples, you'll see the menu wrapped into the <strong>page_wrapper</strong> container. This element doesn't have to be used in your pages, all you have to do is to drop the whole menu into your own container and all elements will fit according to the space they'll have.</p>
+	<p>Just for testing, you can modify the width of the <strong>page_wrapper</strong> element at the beginning of the CSS to see how the menu fits into different contexts.</p>
+	<h2>Setting the drop downs containers</h2>
+	<p>Once you have the menu containers in place (see the section 'Quick Menu Setup'), you can now add menu elements with or without drop downs. Let's start with our previous markup, as you can see, the menu is made of an unordered list. The list elements will appear in the menu bar and they can contain drop downs :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container megamenu_dark_bar megamenu_light&quot;&gt;
+
+	    &lt;ul class="megamenu"&gt;
+
+		    &lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		    FIRST DROP DOWN
+
+		    &lt;/li&gt;
+
+		    &lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;About&lt;/a&gt;
+
+		    SECOND DROP DOWN
+
+		    &lt;/li&gt;
+
+		    &lt;li&gt;&lt;a href="#" &gt;No Drop Down&lt;/a&gt;&lt;/li&gt;
+
+	    &lt;/ul&gt;
+
+	&lt;/div&gt;</pre>
+	<p>Within these list elements, you have the choice for your drop downs, from the smallest to the full width option. For our example, we'll keep only the first element markup from te above code :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+	FIRST DROP DOWN
+
+	&lt;/li&gt;</pre>
+	<p>Here we have the possibility to use any of the 13 drop downs like so :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_fullwidth"&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p><strong>dropdown_fullwidth</strong> is the largest option available and will expand to the whole menu bar width. As a side note, <strong>dropdown_12columns</strong> works in the same way, it's something I kept from the earlier versions of the menu. You can use one or the other in the same way.</p>
+	<p>To set a drop down that will have half of the menu bar width, we use :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p><strong>IMPORTANT NOTICE :</strong> if you use any other container than <strong>dropdown_fullwidth</strong>, you have to use the class <strong>dropdown_container</strong> as shown in the above example. This class is used by the script and the CSS and the menu won't work properly if you don't use this class.</p>
+	<p>Here's the full list of the containers available (that require the <strong>dropdown_container</strong> class) :</p>
+	<ul>
+		<li>dropdown_1column</li>
+		<li>dropdown_2columns</li>
+		<li>dropdown_3columns</li>
+		<li>dropdown_4columns</li>
+		<li>dropdown_5columns</li>
+		<li>dropdown_6columns</li>
+		<li>dropdown_7columns</li>
+		<li>dropdown_8columns</li>
+		<li>dropdown_9columns</li>
+		<li>dropdown_10columns</li>
+		<li>dropdown_11columns</li>
+		<li>dropdown_12columns</li>
+		<li>dropdown_fullwidth</li>
+	</ul>
+	<p>The class names used don't refer to the number of columns that they can hold, it's just a reference to order them by size. In other words, you can put 12 columns in any of them. Of course adding 12 columns in the smallest container doesn't make sense but the idea behind this structure is to keep a maximum flexibility.</p>
+	<p>To understand better how to use these classes, imagine that :</p> 
+	<ul>
+		<li><strong>dropdown_12columns</strong> is the largest  and <strong>dropdown_1column</strong> is 1/12 of <strong>dropdown_12columns</strong>,</li>
+		<li><strong>dropdown_2columns</strong> is 2/12 of <strong>dropdown_12columns</strong>,</li>
+		<li><strong>dropdown_3columns</strong> is 3/12 of <strong>dropdown_12columns</strong>,.</li>
+		<li>...</li>
+		<li><strong>dropdown_6columns</strong> is 6/12 (or one half) of <strong>dropdown_12columns</strong>, etc.</li>
+	</ul>
+	<h2>Setting columns within the drop downs</h2>
+	<p>Within the above containers, you can use from 1 up to 12 columns but don&#39;t forget to check if your container is large enough for the columns you include. It will work in any container but keep in mind that the drop down containers are proportionnal to the menu bar width. Adding 12 columns within a small container doesn't make sense.</p>
+	<p>There are 12 column choices, from the smallest to the largest. In the same way, you have to think these columns in terms of proprtion to their container. Let's use our previous markup and add a few columns :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+			&lt;div class="col_12"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_8"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p>The classes that can be used are :</p>
+	<ul>
+		<li>col_12</li>
+		<li>col_11</li>
+		<li>col_10</li>
+		<li>col_9</li>
+		<li>col_8</li>
+		<li>col_7</li>
+		<li>col_6</li>
+		<li>col_5</li>
+		<li>col_4</li>
+		<li>col_3</li>
+		<li>col_2</li>
+		<li>col_1</li>
+	</ul>
+	<p><strong>col_12</strong> is the largest and <strong>col_1</strong> the smallest. Now you have to keep in mind that to create a row of content, you need to reach a value of 12 by adding the numbers used in these class names. For example, <strong>col_12</strong> will expand to the whole drop down space available. If you add other columns, they'll fall under this one.</p>
+	<p>In the sample above, I've used <strong>col_12</strong> and the second row of content has <strong>col_8</strong> combined with <strong>col_4</strong> : 8 + 4 = 12, together they exand to the whole space available. These column containers are using percentages so you can think of it with this system : 
+	<ul>
+		<li><strong>col_12</strong> is 100%</li>
+		<li><strong>col_11</strong> is 11/12 of 100%</li>
+		<li><strong>col_10</strong> is 10/12 of 100%</li>
+		<li><strong>col_9</strong> is 9/12 of 100%</li>
+		<li><strong>col_8</strong> is 8/12 of 100%</li>
+		<li><strong>col_7</strong> is 7/12 of 100%</li>
+		<li><strong>col_6</strong> is 6/12 of 100%</li>
+		<li><strong>col_5</strong> is 5/12 of 100%</li>
+		<li><strong>col_4</strong> is 4/12 of 100%</li>
+		<li><strong>col_3</strong> is 3/12 of 100%</li>
+		<li><strong>col_2</strong> is 2/12 of 100%</li>
+		<li><strong>col_1</strong> is 1/12 of 100%</li>
+	</ul>
+	<h2>Using the column grid system</h2>
+	<p>Each time you build your columns, you need to reach 100% of the width by combining these columns (and adding the number representing them, like <strong>col_6</strong> is half of the width, put it twice and you get 2 equal columns). Here are other examples :</p>
+	<h6><strong>1 row of 3 equal columns</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<h6><strong>2 rows of 3 equal columns</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<h6><strong>1 row of 4 equal columns</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_3"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<h6><strong>1 row of 2 equal columns</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_6"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_6"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<h6><strong>1 row of 12 equal columns</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<h6><strong>3 rows with : 2 columns, 3 columns, 5 columns (various sizes, no equal columns)</strong></h6>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_10columns dropdown_container"&gt;
+
+			&lt;div class="col_5"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_7"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_6"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_3"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_2"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_2"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_1"&gt;
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p>This example above is more complex but should show you exactly how it works : we have seen that columns are proportionnal and <strong>col_12</strong> represents 100% of the width. Each time you reach a value of 12 by adding the column number values, it makes a row of content. In our last example :</p>
+	<ul>
+		<li>col_5 + col_7 is the first row (5 + 7 = 12)</li>
+		<li>col_6 + col_3 + col_3 is the second row (6 + 3 + 3 = 12)</li>
+		<li>col_3 + col_2 + col_2 + col_1 + col_4 is the third row (3 + 2 + 2 + 1 + 4 = 12)</li>
+	</ul>
+	<p>You'll maybe need to time to understand how this system works, it's a little bit complicated but once you get the logic, things are much easier and incredibly flexible. Now you don't have to think about pixel values, all the elements are resized to fit into any context.</p>
+
+</section>
+
+
+
+<section id="fly_out_menu">
+
+	<h3>Fly-Out Menu</h3><hr class="notop">
+	<p>Since the version 3.0, this menu includes a multi-level fly-out menu. If you open <strong>01_megamenu_example1.html</strong> and hover over 'Fly-Out', you'll see a 4-levels fly-out drop down. You can add as many levels as you want but the script won't keep them inside the viewport : if you don't want some levels to fall outside the visible area, you have to manually set their alignment, they can be displayed towards the left or the right.</p>
+	<p>This fly-out menu is made of nested unordered lists and use the same jQuery effect as the mega drop downs. It is not possible to set a different effect for each type of drop down.</p>
+	<p>Here's the basic structure of a fly-out menu :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Fly-Out&lt;/a&gt;
+
+		&lt;div class="dropdown_2columns dropdown_container"&gt;
+
+			&lt;ul class="dropdown_flyout"&gt;
+                    
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+                        
+				&lt;li class="dropdown_parent"&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;
+
+					&lt;ul class="dropdown_flyout_level"&gt;
+
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+
+					&lt;/ul&gt;
+
+				&lt;/li&gt;
+
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+
+	<p>Now to simply display the level 2 towards the left, all you need to do is to add the class <strong>dropdown_flyout_level_left</strong> :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Fly-Out&lt;/a&gt;
+
+		&lt;div class="dropdown_2columns dropdown_container"&gt;
+
+			&lt;ul class="dropdown_flyout"&gt;
+                    
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+                        
+				&lt;li class="dropdown_parent"&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;
+
+					&lt;ul class="dropdown_flyout_level dropdown_flyout_level_left"&gt;
+
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="#"&gt;Level 2&lt;/a&gt;&lt;/li&gt;
+
+					&lt;/ul&gt;
+
+				&lt;/li&gt;
+
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="#"&gt;Level 1&lt;/a&gt;&lt;/li&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+
+</section>
+
+
+
+<section id="vertical_menu">
+
+	<h3>Vertical Menu</h3><hr class="notop">
+	<p>The vertical version of this menu works like the horizontal version with some minor differences, and you can switch between the 2 versions just by doing some modifications in the markup.</p>
+	<p>Firstly, the vertical menu uses 2 additional classes as explained in the 'Quick Menu Setup' section :</p>
+	<pre class="brush: html">
+	&lt;div class=&quot;megamenu_container_vertical megamenu_dark_bar megamenu_light&quot;&gt;
+
+	    &lt;ul class="megamenu megamenu_vertical"&gt;
+
+	    MEGA MENU CONTENT
+
+	    &lt;/ul&gt;
+
+	&lt;/div&gt;</pre>
+	<p>As you can see, there are 2 specific classes used for the vertical menu : <strong>megamenu_container_vertical</strong> and <strong>megamenu_vertical</strong>.</p>
+	<p>The second difference is that the drop downs require an additional container, as explained in the section 'HTML structure', the basic markup for a menu element and its drop down is :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+		DROP DOWN CONTENT
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p>The vertical menu requires an additional container as following :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Home&lt;/a&gt;
+
+		&lt;div class="dropvertical_container"&gt;
+
+			&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+			DROP DOWN CONTENT
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p>That's all you need to be able to use the vertical mega menu, the CSS and javascript are the exact same files.
+
+</section>
+
+
+
+<section id="mobile_devices">
+
+	<h3>Mobile Devices</h3><hr class="notop">
+	<p>This menu has been coded and tested to work on all kinds of mobile devices such as iPhone or iPad. On those devices, all jQuery effects are disabled and the menu works in the same way whatever the effect you choose : the drop downs are opened and closed with the "touch" event.</p>
+	<p>Due to the large variety of mobile devices available, it is not possible for me to test this menu on all of them so I've tried to make things as simple as possible. If by any chance you see an issue, feel free to contact me and I'll do my best to fix the problem.</p>
+	<p>You don't have to do anything to make this menu mobile friendly, the javascript and the CSS will do the job for you. There is however an additional option that can be useful : if you open <strong>01_megamenu_example1.html</strong> and resize your browser until you reach a width which is less than 767px, you'll see that all menu items are stacked one under the other. All drop down columns fill the whole space available instead of being aligned one next to the other. Now if you hover over 'Home', you'll see that at the bottom of the drop down, the lists and the icons are still split into columns : when you create your columns as explained in the section 'HTML Structure', you have additional classes that keep your content organized into columns even in the mobile version. This is convenient when your content is not too large and can fit into columns instead of taking the whole space available.</p>
+	<p>You have 4 options available : you can have your content split into :</p>
+	<ul>
+		<li>6 columns with the class <strong>responsive_sixths</strong></li>
+		<li>4 columns with the class <strong>responsive_fourths</strong></li>
+		<li>3 columns with the class <strong>responsive_thirds</strong></li>
+		<li>2 columns with the class <strong>responsive_halfs</strong></li>
+	</ul>
+	<p>Those classes must be added directly to each column container, let's say you have a drop down with 3 equal columns, the markup will look like :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Responsive&lt;/a&gt;
+
+		&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+	<p>Now let's say that you want to keep 3 columns on mobile devices, you'll need to use the class <strong>responsive_thirds</strong> as following :</p>
+	<pre class="brush: html">
+	&lt;li&gt;&lt;a href="#" class="megamenu_drop"&gt;Responsive&lt;/a&gt;
+
+		&lt;div class="dropdown_6columns dropdown_container"&gt;
+
+			&lt;div class="col_4 responsive_thirds"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4 responsive_thirds"&gt;
+
+			&lt;/div&gt;
+
+			&lt;div class="col_4 responsive_thirds"&gt;
+
+			&lt;/div&gt;
+
+		&lt;/div&gt;
+
+	&lt;/li&gt;</pre>
+
+</section>
+
+
+
+<section id="contact_form">
+
+	<h3>Contact Form</h3><hr class="notop">
+	<p>Since the version 4.0, this menu includes a working contact form ready to be used. All you have to do is to add your email address in the file <strong>contact.php</strong> at the line 3. This contact form has been tested and sends emails without any problem, be sure to check your spam folder if you don't see anything coming to your inbox.</p>
+	<p>If you need to change or translate the feedback messages (when a field is blank or improperly filled), open the file <strong>megamenu.js</strong> and find this code :</p>
+	<pre class="brush: js">
+    messages: {
+        name: {
+            required: "Please enter your name",
+            minlength: "Your name should contain at least 2 characters"
+        },
+        email: {
+            required: "Please enter your email address"
+        },
+        message: {
+            required: "Please enter your message",
+            minlength: "This is too short"
+        },
+        captcha: {
+            required: "Wrong answer !"
+        }
+    },
+	</pre>
+	<p>If you make any change, be sure to leave the double quotes, if you remove them, the form may not work as expected.</p>
+	<p>You can also define options for each field like making a field optionnal or required or define a minimum length. In this same file <strong>megamenu.js</strong>, you'll find the options there :</p>
+	<pre class="brush: js">
+    rules: {
+        name: {
+            required: true,
+            minlength: 2
+        },
+        email: {
+            required: true,
+            email: true
+        },
+        message: {
+            required: true
+        },
+        captcha: {
+            required: true,
+            answercheck: true
+        }
+    },
+	</pre>
+	<p>You can find more options in the <a href="http://jqueryvalidation.org/documentation/">jQuery validation plugin page</a>.</p>
+
+</section>
+
+
+
+<section id="css_files_and_structure">
+
+	<h3>CSS Files and Structure</h3><hr class="notop">
+	<p>In the <strong>css</strong>&nbsp;folder, you&#39;ll find the only file required : <strong>megamenu.css</strong>. It contains all the required (and optional) styling for the mega menu.</p>
+	<p>If you want to modify some properties in the CSS, make sure that you keep a safe copy of the original file before starting. This CSS is quite complex and requires a good knowledge of CSS markup to be safely modified.</p>
+	<p>This file is divided into 9 main parts and modifying this file may affect the functionnality so be very careful when you start your customizations :</p>
+	<ul>
+		<li><strong>01 MEGA MENU BAR</strong> : It's the code for the menu container and the menu items (the entire menu bar).</li>
+		<li><strong>02 MEGA MENU CONTAINERS</strong> : This part defines all the drop down containers that will hold the columns.</li>
+		<li><strong>03 DROP DOWN COLUMNS GRID</strong> : Here you'll find the column grid system, everything is in percentages.</li>
+		<li><strong>04 FLY-OUT MENU</strong> : Instead of mega drop downs, you can use regular fly-out menus with infinite sub-levels.</li>
+		<li><strong>05 MEGA MENU WEB ELEMENTS</strong> : This part contains styling for elements like headers, lists, forms, images, social icons, etc.</li>
+		<li><strong>06 DEFAULT THEMES, DARK & LIGHT (REQUIRED)</strong> : In this part, all colors styling the menu bar and the drop downs are defined. You have 2 default themes, dark or light that can be combined : you can have a dark menu bar and light drop downs, or the opposite.</li>
+		<li><strong>07 ADDITIONAL THEMES (OPTIONNAL)</strong> : These color schemes are totally optionnal, there are 13 options available that style the menu bar color and the links / list elements.</li>
+		<li><strong>08 VERTICAL MEGA MENU </strong> : This part contains specific markup used in the vertical mega menu variant.</li>
+		<li><strong>09 MOBILE DEVICES</strong> : Here are all the necessary media queries making this menu completely responsive.</li>
+	</ul>
+
+</section>
+
+
+
+<section id="sources_and_credits">
+
+	<h3>Sources and Credits</h3><hr class="notop">
+	<p>I&#39;ve used the following assets as listed.</p>
+	<ul>
+		<li><a href="http://www.designdeck.co.uk/a/253">Simple Social Icon Set</a></li>
+		<li><a href="http://webdesign.tutsplus.com/freebies/icons-freebies/exclusive-freebie-50-crisp-web-app-icons/">Exclusive Freebie: 50 Crisp Web UI Icons</a></li>
+	</ul>
+	<hr>
+	<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the items on Codecanyon, you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+	<p><strong>Pixelworkshop</strong></p>
+
+</section>
+
+
+
+</div>
+
+</body>
+</html>
