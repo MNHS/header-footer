@@ -1,7 +1,5 @@
 <div id="zone-header-wrapper">
 
-
-
 <!-- ****Start Menu**** -->
 
 <div id="masthead">
@@ -9,12 +7,13 @@
     <div class="grid-12">
       <div id="mhs-logo"> <a href="http://www.mnhs.org/"><img alt="Minnesota Historical Society Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/mhs-logo-white.png" /></a> </div>
       <div id="search-secondaryLinks">
-        <div id="global-search">
-          <form method="get" class="global-search-form" title="Search the MNHS website and collections" action="http://greatriversnetwork.org/">
-            <input onKeyPress="return checkSubmit(event);" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
-            <input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" title="Search query submit" alt="Search query submit" class="searchKeyword">
-          </form>
-        </div>
+		<div id="global-search">
+			<form method="get" class="global-search-form" title="Search the MNHS website and research materials" action="http://search.mnhs.org">
+				<input onkeypress="return checkSubmit(event);" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
+				<input type="hidden" value="websites" name="tab" />
+				<input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" alt="Search" class="searchKeyword" />
+			</form>
+		</div> <!-- end div id=global-search -->
         <div id="secondaryLinks">
           <ul>
             <li><a href="http://sites.mnhs.org/support/make-gift">Donate</a></li>
@@ -116,22 +115,21 @@
               <!-- Begin Item Container -->
               <div class="col_6 clearfix">
                 <h3> <a href="http://www.mnhs.org/research">Records &amp; Indexes</a> </h3>
-                <ul>
-                  <li> <a href="http://greatriversnetwork.org/index.php?brand=cms">Search Collections</a> </li>
-                  <li> <a href="http://mnhs.mnpals.net/">Library Catalog</a> </li>
-				  <li> <a href="http://greatriversnetwork.org/index.php?brand=findaids">Archival Collection Finding Aids</a> </li>
-                  <li> <a href="http://people.mnhs.org/bci/">Birth Records</a> </li>
-                  <li> <a href="http://people.mnhs.org/dci/">Death Records</a> </li>
-                  <li> <a href="http://people.mnhs.org/census/">State Census Records</a> </li>
-                  <li> <a href="http://people.mnhs.org/vgri/">Veterans&#039; Graves Registry</a> </li>
-                  <li> <a href="http://newspapers.mnhs.org/web/mhsnews/web/imu.php?request=accesstool">Minnesota Digital Newspaper Hub</a> </li>
-                  <li> <a href="http://nrhp.mnhs.org">National Register of Historic Places</a> </li>
-                     <li> <a href="http://mapexplorer.mnhs.org">Search Collections by Place</a> </li>
-                  <li> <a href="http://collections.mnhs.org/maps/">Maps</a> </li>
-                  <li> <a href="http://collections.mnhs.org/voicesofmn/">Oral History Collection</a> </li>
-                  <li class="hidden"> <a href="http://greatriversnetwork.org/index.php?brand=findaids">Archival Collection Finding Aids</a> </li>
-                 <li> <a href="http://mnplaces.mnhs.org/upham/">Minnesota Place Names</a> </li>
-                </ul>
+					<ul>
+						<li><a href="http://search.mnhs.org/">Search Collections</a></li>
+						<li><a href="http://mnhs.mnpals.net/">Library Catalog</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people">People Finder</a></li>
+						<li><a href="http://search.mnhs.org/?brand=findaids">Archival Collection Finding Aids</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-bci">Birth Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-dci">Death Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-census">State Census Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-vgri">Veterans&#39 Graves Registry</a></li>
+						<li><a href="http://newspapers.mnhs.org/web/mhsnews/web/imu.php?request=accesstool">Minnesota Digital Newspaper Hub</a></li>
+						<li><a href="http://collections.mnhs.org/voicesofmn/">Oral History Collection</a></li>
+						<li><a href="http://collections.mnhs.org/maps/">Maps</a></li>
+						<li><a href="http://nrhp.mnhs.org/">National Register of Historic Places</a></li>
+						<li><a href="http://mnplaces.mnhs.org/upham/">Minnesota Place Names</a></li>
+					</ul>
               </div>
               <div class="col_6"> <a href="http://sites.mnhs.org/library">
                 <h3> Gale Family Library </h3>
@@ -291,10 +289,11 @@
             <div class="dropdown_4columns dropdown_right dropdown_container"> 
               <!-- Begin Item Container -->
               <div class="col_12">
-                <form method="get" id="menu-search" class="global-search-form" title="Search the MNHS website and collections" action="http://greatriversnetwork.org/index.php">
-                  <input onKeyPress="return checkSubmit(event)" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
-                  <input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" title="Search query submit" alt="Search query submit" class="searchKeyword">
-                </form>
+				<form method="get" id="menu-search" class="global-search-form" title="Search the MNHS website and research materials" action="http://search.mnhs.org">
+					<input onkeypress="return checkSubmit(event);" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
+					<input type="hidden" value="websites" name="tab" />
+					<input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" title="Search query submit" alt="Search query submit" class="searchKeyword" />
+				</form>
               </div>
             </div>
             
