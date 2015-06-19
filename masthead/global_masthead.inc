@@ -120,10 +120,10 @@
 						<li><a href="http://mnhs.mnpals.net/">Library Catalog</a></li>
 						<li><a href="http://search.mnhs.org/?brand=people">People Finder</a></li>
 						<li><a href="http://search.mnhs.org/?brand=findaids">Archival Collection Finding Aids</a></li>
-						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-bci">Birth Records</a></li>
-						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-dci">Death Records</a></li>
-						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-census">State Census Records</a></li>
-						<li><a href="http://search.mnhs.org/?brand=people&collection[]=mn_mhs-vgri">Veterans&#39 Graves Registry</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people">Birth Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people">Death Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people">State Census Records</a></li>
+						<li><a href="http://search.mnhs.org/?brand=people">Veterans&#39 Graves Registry</a></li>
 						<li><a href="http://newspapers.mnhs.org/web/mhsnews/web/imu.php?request=accesstool">Minnesota Digital Newspaper Hub</a></li>
 						<li><a href="http://collections.mnhs.org/voicesofmn/">Oral History Collection</a></li>
 						<li><a href="http://collections.mnhs.org/maps/">Maps</a></li>
