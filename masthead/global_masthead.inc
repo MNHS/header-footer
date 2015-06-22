@@ -1,5 +1,5 @@
-<div id="zone-header-wrapper">
 
+<div id="zone-header-wrapper">
 <!-- ****Start Menu**** -->
 
 <div id="masthead">
@@ -43,17 +43,21 @@
             <div class="dropdown_fullwidth"> 
               <!-- Begin Item Container -->
               <div class="col_2">
-                <h3 class="menu-feature"> <a href="http://events.mnhs.org/" title="">Calendar</a> </h3>
+                <h3 class="menu-feature"> <a href="mnhs.org/calendar" title="">Calendar</a> </h3>
                 <ul class="menu">
+                  
+                  <li><a href="http://www.mnhs.org/calendar?c=American" title="">American Indian Events</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Camps" title="">Camps</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Classes and Workshops" title="">Classes and Workshops</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Family" title="">Family Events</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Lectures and Talks" title="">Lectures and Talks</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Music and Performances" title="">Music and Performances</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=Tours" title="">Tours</a></li>
+                  <li><a href="mnhs.org/calendar" title="">All Events</a></li></ul>
+                  
+                     <h3 class="menu-feature"> EXHIBITS </h3>
+                     <ul class="menu">
                   <li><a href="http://www.minnesotahistorycenter.org/exhibits" title="">History Center Exhibits</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=12&amp;HP=Yes" title="">All Exhibits</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=1&amp;HP=Yes" title="">Family Events</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=9&amp;HP=Yes" title="">Theme Tours</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=11&amp;HP=Yes" title="">Walking Tours</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=4&amp;HP=Yes" title="">Library Classes</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=3&amp;HP=Yes" title="">Lectures &amp; Talks</a></li>
-                  <li><a href="http://events.mnhs.org/calendar/Results.cfm?TypeID=22&amp;HP=Yes" title="">Summer Camps</a></li>
-                  <li><a href="http://events.mnhs.org/" title="">All Events</a></li>
                 </ul>
               </div>
               <div class="col_10">
@@ -93,8 +97,8 @@
                     <li style="list-style-image:none;">&mdash; <a href="http://sites.mnhs.org/library">Gale Family Library</a></li>
                     <li><a href="http://sites.mnhs.org/historic-sites/minnesota-state-capitol">Minnesota State Capitol</a></li>
                     <li><a href="http://sites.mnhs.org/historic-sites/north-west-company-fur-post">North West Company Fur Post</a></li>
-                    <li><a href="http://sites.mnhs.org/historic-sites/oliver-h-kelley-farm">Oliver H. Kelley Farm</a></li>
-                    <li><a href="http://www.historicfortsnelling.org/sibley-house-historic-site">Sibley Historic Site</a></li>
+                    <li><a href="http://sites.mnhs.org/historic-sites/oliver-h-kelley-farm">Oliver Kelley Farm</a></li>
+                    <li><a href="http://sites.mnhs.org/historic-sites/sibley-historic-site">Sibley Historic Site</a></li>
                     <li><a href="http://sites.mnhs.org/historic-sites/split-rock-lighthouse">Split Rock Lighthouse</a></li>
                     <li><a href="http://sites.mnhs.org/historic-sites/traverse-des-sioux">Traverse des Sioux</a></li>
                     <li><a href="http://sites.mnhs.org/historic-sites/ww-mayo-house">W.W. Mayo House</a></li>
@@ -124,7 +128,7 @@
 						<li><a href="http://search.mnhs.org/?brand=people">Death Records</a></li>
 						<li><a href="http://search.mnhs.org/?brand=people">State Census Records</a></li>
 						<li><a href="http://search.mnhs.org/?brand=people">Veterans&#39 Graves Registry</a></li>
-						<li><a href="http://newspapers.mnhs.org/web/mhsnews/web/imu.php?request=accesstool">Minnesota Digital Newspaper Hub</a></li>
+						<li><a href="http://www.mnhs.org/newspapers">Digital Newspapers</a></li>
 						<li><a href="http://collections.mnhs.org/voicesofmn/">Oral History Collection</a></li>
 						<li><a href="http://collections.mnhs.org/maps/">Maps</a></li>
 						<li><a href="http://nrhp.mnhs.org/">National Register of Historic Places</a></li>
@@ -177,7 +181,7 @@
                   <li> <a href="http://www.mnopedia.org">MNopedia</a> </li>
                   <li> <a href="http://discussions.mnhs.org/collections/">Collections Up Close</a> </li>
                   <li> <a href="http://www.mnhs.org/market/mhspress/minnesotahistory/index">Minnesota History Magazine</a> </li>
-                  <li> <a href="http://shop.mnhs.org/mhspress.cfm">MNHS Press Books</a> </li>
+                  <li> <a href="http://www.mnhs.org/mnhspress">MNHS Press Books</a> </li>
                   <li> <a href="http://www.mngeo.state.mn.us/ghol/">True North: Mapping Minnesota&#039;s History</a> </li>
                   <li> <a href="http://events.mnhs.org/bookofdays/">This Day in Minnesota History</a> </li>
                 </ul>
@@ -188,7 +192,7 @@
                   <li> <a href="http://legacy.mnhs.org/sharing-community-stories/projects">Sharing Community Stories</a> </li>
                   <li> <a href="http://www.mnhs.org/people/mngg/index.htm">Stories of Minnesota&#039;s Greatest Generation</a> </li>
                   <li> <a href="http://www.placeography.org/index.php/Main_Page">Placeography</a> </li>
-                  <li> <a href="http://discovery.mnhs.org/MN150/index.php?title=Main_Page">MN150 Wiki</a> </li>
+                  
 
                 </ul>
               </div>
@@ -197,8 +201,9 @@
                 <ul>
 				<li> <a href="http://www.mnhs.org/hmong">Hmong in Minnesota</a> </li>
                   <li> <a href="http://www.usdakotawar.org">The U.S.-Dakota War of 1862</a> </li>
+				  <li> <a href="http://collections.mnhs.org/jp/">Jeffers Petroglyphs Preservation Project</a> </li>
                   <li> <a href="http://sites.mnhs.org/civil-war/">Minnesota and the Civil War</a> </li>
-                  <li> <a href="http://collections.mnhs.org/duluthlynchings/">Duluth Lynchings</a> </li>
+                  <li> <a href="http://www.mnhs.org/duluthlynchings/">Duluth Lynchings</a> </li>
                   <li> <a href="http://discussions.mnhs.org/10000books/">10,000 Books Blog</a> </li>
                   <li> <a href="http://www.historicfortsnelling.org/a-place-in-time/homepage.php">A Look into Fort Snelling&#039;s Past</a> </li>
 <li> <a href="http://beginningdakota.org">Dakota Language and Grammar</a> </li>
