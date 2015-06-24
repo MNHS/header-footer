@@ -5,13 +5,13 @@
 <div id="masthead">
   <div class="container-12">
     <div class="grid-12">
-      <div id="mhs-logo"> <a href="http://www.mnhs.org/"><img alt="Minnesota Historical Society Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/mhs-logo-white.png" /></a> </div>
+      <div id="mhs-logo"> <a href="http://www.mnhs.org/"><img alt="Minnesota Historical Society Logo" src="/static/masthead/mnhs_org/img/mhs-logo-white.png" /></a> </div>
       <div id="search-secondaryLinks">
 		<div id="global-search">
 			<form method="get" class="global-search-form" title="Search the MNHS website and research materials" action="http://search.mnhs.org">
 				<input onkeypress="return checkSubmit(event);" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
 				<input type="hidden" value="websites" name="tab" />
-				<input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" alt="Search" class="searchKeyword" />
+				<input type="image" src="/static/masthead/mnhs_org/img/search.png" name="Search" alt="Search" class="searchKeyword" />
 			</form>
 		</div> <!-- end div id=global-search -->
         <div id="secondaryLinks">
@@ -32,7 +32,7 @@
 <div class="mega-container mhs-gray">
   <div class="container-12 megamenu_container_height">
     <div class="grid-12">
-      <div id="mhs-flame"> <a href="http://www.mnhs.org/"><img title="Return to MNHS homepage" alt="Minnesota Historical Society M-Flame Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/mhs-logo-mflame-white.png" /></a> </div>
+      <div id="mhs-flame"> <a href="http://www.mnhs.org/"><img title="Return to MNHS homepage" alt="Minnesota Historical Society M-Flame Logo" src="/static/masthead/mnhs_org/img/mhs-logo-mflame-white.png" /></a> </div>
       <div class="megamenu_container megamenu_dark_bar megamenu_light"> 
         
         <!-- Begin Menu Container -->
@@ -108,7 +108,7 @@
               </div>
               <div class="col_12 top-tier-sites">
                 <hr>
-                <a href="http://www.minnesotahistorycenter.org"><img alt="Minnesota History Center Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/logos/small/mhc.png" class=" logo-mhc" /></a> <a href="http://www.historicfortsnelling.org"><img alt="Historic Fort Snelling Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/logos/small/hfs.png" class="logo-hfs" /></a> <a href="http://sites.mnhs.org/historic-sites/split-rock-lighthouse"><img alt="Split Rock Lighthouse Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/logos/small/srl.png" class="logo-srl" /></a> <a href="http://www.millcitymuseum.org"><img alt="Mill City Museum Logo" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/logos/small/mcm.png" class=" logo-mcm" /></a> </div>
+                <a href="http://www.minnesotahistorycenter.org"><img alt="Minnesota History Center Logo" src="/static/masthead/mnhs_org/img/logos/small/mhc.png" class=" logo-mhc" /></a> <a href="http://www.historicfortsnelling.org"><img alt="Historic Fort Snelling Logo" src="/static/masthead/mnhs_org/img/logos/small/hfs.png" class="logo-hfs" /></a> <a href="http://sites.mnhs.org/historic-sites/split-rock-lighthouse"><img alt="Split Rock Lighthouse Logo" src="/static/masthead/mnhs_org/img/logos/small/srl.png" class="logo-srl" /></a> <a href="http://www.millcitymuseum.org"><img alt="Mill City Museum Logo" src="/static/masthead/mnhs_org/img/logos/small/mcm.png" class=" logo-mcm" /></a> </div>
             </div>
             
             <!-- End Item Container --> 
@@ -138,7 +138,7 @@
               </div>
               <div class="col_6"> <a href="http://sites.mnhs.org/library">
                 <h3> Gale Family Library </h3>
-                <img style="padding:0 0 25px 0; margin:0;" alt="Gale Family Library" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/gale-family-library-slim.jpg" /></a>
+                <img style="padding:0 0 25px 0; margin:0;" alt="Gale Family Library" src="/static/masthead/mnhs_org/img/gale-family-library-slim.jpg" /></a>
                 <h3> <a href="http://www.mnhs.org/research#research-help">Research Help</a> </h3>
                 <ul>
                   <li> <a href="http://libguides.mnhs.org/index.php">Research Guides by Topic</a> </li>
@@ -238,7 +238,7 @@
                   <li><a href="http://csse.mnhs.org" title="">Minnesota Center for Social Studies Education</a></li>
                 </ul>
               </div>
-              <div class="col_4"> <a href="http://education.mnhs.org"><img src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/mnStateSmart_100.png" alt="MN State Smart logo" /></a> </div>
+              <div class="col_4"> <a href="http://education.mnhs.org"><img src="/static/masthead/mnhs_org/img/mnStateSmart_100.png" alt="MN State Smart logo" /></a> </div>
             </div>
             
             <!-- End Item container --> 
@@ -291,7 +291,7 @@
             <!-- End Item Container --> 
           </li>
           <!-- End Item -->
-          <li class="se-search hidden section"><a href="javascript:void(0)" class="megamenu_drop"><img alt="Search Dropdown" class="search-icon" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" /></a> 
+          <li class="se-search hidden section"><a href="javascript:void(0)" class="megamenu_drop"><img alt="Search Dropdown" class="search-icon" src="/static/masthead/mnhs_org/img/search.png" /></a> 
             <!-- Begin Item -->
             <div class="dropdown_4columns dropdown_right dropdown_container"> 
               <!-- Begin Item Container -->
@@ -299,7 +299,7 @@
 				<form method="get" id="menu-search" class="global-search-form" title="Search the MNHS website and research materials" action="http://search.mnhs.org">
 					<input onkeypress="return checkSubmit(event);" class="input-box" title="Enter search query" type="text" name="q" maxlength="75" size="75" />
 					<input type="hidden" value="websites" name="tab" />
-					<input type="image" src="http://www.mnhs.org/sites/all/themes/mnhs_org/img/search.png" name="Search" title="Search query submit" alt="Search query submit" class="searchKeyword" />
+					<input type="image" src="/static/masthead/mnhs_org/img/search.png" name="Search" title="Search query submit" alt="Search query submit" class="searchKeyword" />
 				</form>
               </div>
             </div>
