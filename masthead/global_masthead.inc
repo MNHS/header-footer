@@ -17,6 +17,7 @@
         <div id="secondaryLinks">
           <ul>
             <li><a href="http://sites.mnhs.org/support/make-gift">Donate</a></li>
+            <li> <a href="http://www.mnhs.org/calendar">Calendar </a> | </li>
             <li><a href="http://shop.mnhs.org">Shop</a> | </li>
             <li><a href="http://sites.mnhs.org/support/membership">Membership</a> | </li>
           </ul>
@@ -43,17 +44,17 @@
             <div class="dropdown_fullwidth"> 
               <!-- Begin Item Container -->
               <div class="col_2">
-                <h3 class="menu-feature"> <a href="mnhs.org/calendar" title="">Calendar</a> </h3>
+                <h3 class="menu-feature"> <a href="http://www.mnhs.org/calendar" title="">Calendar</a> </h3>
                 <ul class="menu">
                   
-                  <li><a href="http://www.mnhs.org/calendar?c=American" title="">American Indian Events</a></li>
+                  <li><a href="http://www.mnhs.org/calendar?c=American Indian" title="">American Indian Events</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Camps" title="">Camps</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Classes and Workshops" title="">Classes and Workshops</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Family" title="">Family Events</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Lectures and Talks" title="">Lectures and Talks</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Music and Performances" title="">Music and Performances</a></li>
                   <li><a href="http://www.mnhs.org/calendar?c=Tours" title="">Tours</a></li>
-                  <li><a href="mnhs.org/calendar" title="">All Events</a></li></ul>
+                  <li><a href="http://www.mnhs.org/calendar" title="">All Events</a></li></ul>
                   
                      <h3 class="menu-feature"> EXHIBITS </h3>
                      <ul class="menu">
@@ -184,6 +185,7 @@
                   <li> <a href="http://www.mnhs.org/mnhspress">MNHS Press Books</a> </li>
                   <li> <a href="http://www.mngeo.state.mn.us/ghol/">True North: Mapping Minnesota&#039;s History</a> </li>
                   <li> <a href="http://events.mnhs.org/bookofdays/">This Day in Minnesota History</a> </li>
+                   <li> <a href="http://www.mnhs.org/historyroulette">Minnesota History Roulette</a> </li>
                 </ul>
                 <h3> <a href="http://www.mnhs.org/explore#stories">Your Stories</a> </h3>
                 <ul>
