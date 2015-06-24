@@ -9,7 +9,7 @@
                 
 					<!-- BEGIN FOOTER COPY and PASTE-->
 				
-            <style>
+           <style>
 img, object, embed, video {
 	max-width: 100%;
 }
@@ -23,7 +23,8 @@ img, object, embed, video {
 /* Mobile Layout: 480px and below. */
 
 
-.facebook, .flickr, .linkedin, .pinterest, .twitter, .youtube
+.a-twitter, .b-facebook, .c-instagram, .d-youtube, .e-flickr, 
+.f-pinterest, .g-linkedin
              { margin-right:5px; }
 
 #zone-footer-wrapper{
@@ -49,7 +50,7 @@ img, object, embed, video {
 	width:42%;
 		float:left;
 		padding: 0 10px;
-border-left:1px dotted #cccccc;
+border-left:1px dotted #687C89;
 
 }
 
@@ -79,7 +80,7 @@ border-left:1px dotted #cccccc;
 .column-1 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #cccccc;;
+	border-bottom: 1px dotted #687C89;;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -88,7 +89,7 @@ border-left:1px dotted #cccccc;
 .column-2 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #cccccc;;
+	border-bottom: 1px dotted #687C89;;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -96,7 +97,7 @@ border-left:1px dotted #cccccc;
 .column-3 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #cccccc;;
+	border-bottom: 1px dotted #687C89;;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -151,8 +152,8 @@ margin-bottom:.75em;
 }
 
 .partners {
-	border-top: 1px dotted #cccccc;
-	border-bottom: 1px dotted #cccccc;
+	border-top: 1px dotted #687C89;
+	border-bottom: 1px dotted #687C89;
 	padding:15px 0;
 	width:100%;
 	clear:left;
@@ -166,9 +167,9 @@ margin-bottom:.75em;
 	margin:25px 0 10px 0;
 	padding:0;
 }
-.facebook, .flickr, .linkedin, .pinterest, .twitter, 
-.youtube
-{ display: inline-block; background: url('http://www.mnhs.org/static/masthead/mnhs_org/css/megamenu/HTML/img/icons/social_icons_white.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+.a-twitter, .b-facebook, .c-instagram, .d-youtube, .e-flickr, 
+.f-pinterest, .g-linkedin
+{ display: inline-block; background: url('http://www.mnhs.org/static/masthead/mnhs_org/css/megamenu/HTML/img/icons/social_sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
 #zone-footer .closing{
 	padding-top:20px;
@@ -185,12 +186,13 @@ margin-bottom:.75em;
 .social-icons {
 	margin-top:25px;
 }
-.facebook { background-position: -5px -0px; width: 29px; height: 29px; }
-.flickr { background-position: -37px -0px; width: 29px; height: 29px; }
-.linkedin { background-position: -5px -32px; width: 29px; height: 29px; }
-.pinterest { background-position: -37px -32px; width: 29px; height: 29px; }
-.twitter { background-position: -5px -64px; width: 29px; height: 29px; }
-.youtube { background-position: -37px -64px; width: 29px; height: 29px; }
+.a-twitter { background-position: -10px -0px; width: 27px; height: 27px; }
+.b-facebook { background-position: -47px -0px; width: 27px; height: 27px; }
+.c-instagram { background-position: -10px -37px; width: 28px; height: 28px; }
+.d-youtube { background-position: -47px -37px; width: 28px; height: 28px; }
+.e-flickr { background-position: -10px -74px; width: 27px; height: 27px; }
+.f-pinterest { background-position: -47px -74px; width: 27px; height: 27px; }
+.g-linkedin { background-position: -10px -111px; width: 27px; height: 27px; }
 
 #zone-footer .part-1 h2 {
 width: 88%;
@@ -215,7 +217,7 @@ width: 88%;
 .footer_column {
 	clear:none;
 	border-bottom: none;
-	border-right: 1px dotted #cccccc;;
+	border-right: 1px dotted #687C89;;
 	width: 200px;
 	
 }
@@ -223,7 +225,7 @@ width: 88%;
 .column-1 {
 	float: left;
 	margin-right: 10px;
-	border-right: 1px dotted #cccccc;;
+	border-right: 1px dotted #687C89;;
 	border-bottom: none;
 	padding: 10px;
 	width:44%;
@@ -234,7 +236,7 @@ width: 88%;
 .column-2 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #cccccc;;
+	border-bottom: 1px dotted #687C89;;
 	padding: 10px;
 	width:44%;
 	clear:none;
@@ -243,8 +245,8 @@ width: 88%;
 .column-3 {
 	float: left;
 	margin-right: 10px;
-	border-top: 1px dotted #cccccc;;
-	border-right: 1px dotted #cccccc;;
+	border-top: 1px dotted #687C89;;
+	border-right: 1px dotted #687C89;;
 	border-bottom: none;
 	padding: 10px;
 	width:44%;
@@ -305,7 +307,8 @@ width: 88%;
 	display: block;
 }
 
-.facebook, .flickr, .linkedin, .pinterest, .twitter, .youtube
+.a-twitter, .b-facebook, .c-instagram, .d-youtube, .e-flickr, 
+.f-pinterest, .g-linkedin
              { margin-right:0px; }
 
 
@@ -314,7 +317,7 @@ width: 88%;
 /*.column-1 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #cccccc;;
+	border-bottom: 1px dotted #687C89;;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -326,7 +329,7 @@ width: 88%;
 
 .column-1 {
 	float: left;
-	border-right: 1px dotted #cccccc;;
+	border-right: 1px dotted #687C89;;
 	border-bottom: none;
 	padding: 11px;
 height: 169px;
@@ -345,7 +348,7 @@ height: 169px;
 
 .column-2 {
 	float: left;
-	border-right: 1px dotted #cccccc;;
+	border-right: 1px dotted #687C89;;
 	border-bottom: none;
 	padding: 11px;
 height: 169px;
@@ -363,7 +366,7 @@ height: 169px;
 
 .column-3 {
 	float: left;
-	border-right: 1px dotted #cccccc;;
+	border-right: 1px dotted #687C89;;
 		border-top: none;
 height: 169px;
 	padding: 11px;
@@ -417,8 +420,8 @@ margin: 0 0 0 15px;
 }
 
 .partners {
-	border-top: 1px dotted #cccccc;
-	border-bottom: 1px dotted #cccccc;
+	border-top: 1px dotted #687C89;
+	border-bottom: 1px dotted #687C89;
 }
 
 
@@ -439,7 +442,7 @@ margin: 0 0 0 15px;
 width: 43%;
 }	
 	.column-1,.column-2,.column-3,.column-4 {
-	height: 130px;
+	height: 125px;
 }
 
 }
@@ -458,7 +461,7 @@ width: 43%;
 <div class="gridContainer">
   <div class="column-1"><h2 class="no-border">Minnesota Historical Society</h2>
 
-		<p>345 W. Kellogg Blvd., <br />
+		<p>345 W. Kellogg Blvd. <br />
 		  St. Paul, MN 55102<br />
 		  651-259-3000 &#8226; 1-800-657-3773<br />
 	</p>
@@ -468,7 +471,7 @@ width: 43%;
 
   <div class="column-2"><h2 class="no-border">Resources</h2>
 	<ul>
-			<li><a href="http://events.mnhs.org/media/index.php">Media Room</a></li>
+		<li><a href="http://events.mnhs.org/media/index.php">Media Room</a></li>
         <li><a href="http://shop.mnhs.org">Shop</a></li>
         <li><a href="http://blogs.mnhs.org">Blogs</a></li>
       
@@ -481,33 +484,33 @@ width: 43%;
 		<li><a href="http://www.mnhs.org/volunteers">Volunteers</a></li>
 		<li><a href="http://www.mnhs.org/internships">Internships</a></li>
 		<li><a href="http://www.mnhs.org/jobs">Jobs</a></li>
-		 <li><a href="http://www.mnhs.org/fellowships">Fellowships</a></li>
+         <li><a href="http://www.mnhs.org/fellowships">Fellowships</a></li>
 	</ul></div>
 
 
   <div class="column-4"><h2 class="no-border">Connect with MNHS</h2>
-    <a href="http://www.mnhs.org/newsletters/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/newsletter.png" alt="email newsletter" /></a> <a href="http://www.mnhs.org/newsletters/">MNHS Email Newsletters </a>
+    <a href="http://www.mnhs.org/newsletters/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/newsletter.png" alt="Sign up for email newsletters" /></a> <a href="http://www.mnhs.org/newsletters/">MNHS Email Newsletters </a>
 <div class="social-icons">
-	  <a href="http://twitter.com/mnhs"><div class=" twitter">MNHS twitter</div></a>
+	   <a href="http://twitter.com/mnhs"><div class=" a-twitter">MNHS twitter</div></a>
 
-		<a href="https://www.facebook.com/minnesotahistoricalsociety"><div class=" facebook">MNHS facebook</div></a>
+		<a href="https://www.facebook.com/minnesotahistoricalsociety"><div class=" b-facebook">MNHS facebook</div></a>
 
+	<a href="http://instagram.com/minnesotahistoricalsociety/"><div class=" c-instagram">MNHS facebook</div></a>
 
+		<a href="https://www.youtube.com/user/minnesotahistory"><div class=" d-youtube">MNHS youtube</div></a>
 
-		<a href="https://www.youtube.com/user/minnesotahistory"><div class=" youtube">MNHS youtube</div></a>
+		<a href="https://www.flickr.com/photos/minnesotahistoricalsociety/"><div class=" e-flickr">MNHS flickr</div></a>
 
-		<a href="https://www.flickr.com/photos/minnesotahistoricalsociety/"><div class=" flickr">MNHS flickr</div></a>
+		<a href="http://www.pinterest.com/mnhistory/"><div class=" f-pinterest">MNHS pinterest</div></a>
 
-		<a href="http://www.pinterest.com/mnhistory/"><div class=" pinterest">MNHS pinterest</div></a>
-
-		<a href="http://www.linkedin.com/company/minnesota-historical-society"><div class="linkedin">MNHS linkedin</div></a>
+		<a href="http://www.linkedin.com/company/minnesota-historical-society"><div class="g-linkedin">MNHS linkedin</div></a>
 	</div></div>
     </div>
     
 <div class="partners"> <div class="gridContainer">
       <div class="part-1"><p class="part-1">Premier partners</p>
-      <a href="http://www.xcelenergy.com/Save_Money_&amp;_Energy"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/xcel-copy.png" alt="xcel energy logo" /></a><a href="http://www.exploreminnesota.com/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/explore_mn.png" alt="explore minnesota logo" /></a> </div>
-<div class="part-2"><a href="http://legacy.mnhs.org/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/clean_water_legacy.png" alt="xcel energy logo" /></a><p>Funding provided by the State of Minnesota, the <a href="http://legacy.mnhs.org/">Legacy Amendment </a>through the vote of Minnesotans on Nov. 4, 2008, and our generous donors and members.</p></div>
+      <a href="http://www.xcelenergy.com/Save_Money_&amp;_Energy"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/xcel-copy.png" alt="Xcel Energy" /></a><a href="http://www.exploreminnesota.com/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/explore_mn.png" alt="Explore Minnesota" /></a> </div>
+<div class="part-2"><a href="http://legacy.mnhs.org/"><img src="http://www.mnhs.org/static/masthead/mnhs_org/img/social/clean_water_legacy.png" alt="Clean Water Land & Legacy Amendment" /></a><p>Funding provided by the State of Minnesota, the <a href="http://legacy.mnhs.org/">Legacy Amendment </a>through the vote of Minnesotans on Nov. 4, 2008, and our generous donors and members.</p></div>
 
     </div>
     </div>
