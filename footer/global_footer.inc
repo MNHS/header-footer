@@ -50,7 +50,7 @@ img, object, embed, video {
 	width:42%;
 		float:left;
 		padding: 0 10px;
-border-left:1px dotted #687C89;
+border-left:1px dotted #cccccc;
 
 }
 
@@ -80,7 +80,7 @@ border-left:1px dotted #687C89;
 .column-1 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #687C89;;
+	border-bottom: 1px dotted #cccccc;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -89,7 +89,7 @@ border-left:1px dotted #687C89;
 .column-2 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #687C89;;
+	border-bottom: 1px dotted #cccccc;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -97,7 +97,7 @@ border-left:1px dotted #687C89;
 .column-3 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #687C89;;
+	border-bottom: 1px dotted #cccccc;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -217,7 +217,7 @@ width: 88%;
 .footer_column {
 	clear:none;
 	border-bottom: none;
-	border-right: 1px dotted #687C89;;
+	border-right: 1px dotted #cccccc;
 	width: 200px;
 	
 }
@@ -225,7 +225,7 @@ width: 88%;
 .column-1 {
 	float: left;
 	margin-right: 10px;
-	border-right: 1px dotted #687C89;;
+	border-right: 1px dotted #cccccc;
 	border-bottom: none;
 	padding: 10px;
 	width:44%;
@@ -236,7 +236,7 @@ width: 88%;
 .column-2 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #687C89;;
+	border-bottom: 1px dotted #cccccc;
 	padding: 10px;
 	width:44%;
 	clear:none;
@@ -245,8 +245,8 @@ width: 88%;
 .column-3 {
 	float: left;
 	margin-right: 10px;
-	border-top: 1px dotted #687C89;;
-	border-right: 1px dotted #687C89;;
+	border-top: 1px dotted #cccccc;
+	border-right: 1px dotted #cccccc;
 	border-bottom: none;
 	padding: 10px;
 	width:44%;
@@ -317,7 +317,7 @@ width: 88%;
 /*.column-1 {
 	float: left;
 	margin-right: 10px;
-	border-bottom: 1px dotted #687C89;;
+	border-bottom: 1px dotted #cccccc;
 	padding: 10px;
 	clear:both;
 	width:100%;
@@ -329,7 +329,7 @@ width: 88%;
 
 .column-1 {
 	float: left;
-	border-right: 1px dotted #687C89;;
+	border-right: 1px dotted #cccccc;
 	border-bottom: none;
 	padding: 11px;
 height: 169px;
@@ -348,7 +348,7 @@ height: 169px;
 
 .column-2 {
 	float: left;
-	border-right: 1px dotted #687C89;;
+	border-right: 1px dotted #cccccc;
 	border-bottom: none;
 	padding: 11px;
 height: 169px;
@@ -366,7 +366,7 @@ height: 169px;
 
 .column-3 {
 	float: left;
-	border-right: 1px dotted #687C89;;
+	border-right: 1px dotted #cccccc;
 		border-top: none;
 height: 169px;
 	padding: 11px;
@@ -420,8 +420,8 @@ margin: 0 0 0 15px;
 }
 
 .partners {
-	border-top: 1px dotted #687C89;
-	border-bottom: 1px dotted #687C89;
+	border-top: 1px dotted #cccccc;
+	border-bottom: 1px dotted #cccccc;
 }
 
 
@@ -442,7 +442,7 @@ margin: 0 0 0 15px;
 width: 43%;
 }	
 	.column-1,.column-2,.column-3,.column-4 {
-	height: 125px;
+	height: 130px;
 }
 
 }
@@ -471,7 +471,7 @@ width: 43%;
 
   <div class="column-2"><h2 class="no-border">Resources</h2>
 	<ul>
-		<li><a href="http://events.mnhs.org/media/index.php">Media Room</a></li>
+		<li><a href="http://www.mnhs.org/media">Media Room</a></li>
         <li><a href="http://shop.mnhs.org">Shop</a></li>
         <li><a href="http://blogs.mnhs.org">Blogs</a></li>
       
@@ -495,7 +495,7 @@ width: 43%;
 
 		<a href="https://www.facebook.com/minnesotahistoricalsociety"><div class=" b-facebook">MNHS facebook</div></a>
 
-	<a href="http://instagram.com/minnesotahistoricalsociety/"><div class=" c-instagram">MNHS facebook</div></a>
+	<a href="http://instagram.com/minnesotahistoricalsociety/"><div class=" c-instagram">MNHS instagram</div></a>
 
 		<a href="https://www.youtube.com/user/minnesotahistory"><div class=" d-youtube">MNHS youtube</div></a>
 
