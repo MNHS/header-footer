@@ -176,6 +176,7 @@ margin-bottom:.75em;
 }
 #zone-footer h2{
 	padding-top:0;
+	margin-top:0px;
 }
 
 .column-4 img {
