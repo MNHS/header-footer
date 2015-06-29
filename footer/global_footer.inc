@@ -233,6 +233,10 @@ width: 88%;
 	height:155px;
 }
 
+.column-1 p {
+	margin-left:0px;
+}
+
 .column-2 {
 	float: left;
 	margin-right: 10px;
