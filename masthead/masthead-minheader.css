@@ -1,0 +1,12 @@
+#masthead{
+	display:none;	
+}
+#mhs-flame img {
+margin-left: 0px;
+}
+.megamenu_container{
+	margin-left:50px;	
+}
+.se-search.hidden{
+	display:block!important;
+}
