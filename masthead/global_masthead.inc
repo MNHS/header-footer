@@ -183,8 +183,7 @@
                   <li> <a href="http://discussions.mnhs.org/collections/">Collections Up Close</a> </li>
                   <li> <a href="http://www.mnhs.org/market/mhspress/minnesotahistory/index">Minnesota History Magazine</a> </li>
                   <li> <a href="http://www.mnhs.org/mnhspress">MNHS Press Books</a> </li>
-                  <li> <a href="http://www.mngeo.state.mn.us/ghol/">True North: Mapping Minnesota&#039;s History</a> </li>
-                  <li> <a href="http://events.mnhs.org/bookofdays/">This Day in Minnesota History</a> </li>
+                  <li> <a href="http://www.mnopedia.org/thisday">This Day in Minnesota History</a> </li>
                    <li> <a href="http://www.mnhs.org/historyroulette">Minnesota History Roulette</a> </li>
                 </ul>
                 <h3> <a href="http://www.mnhs.org/explore#stories">Your Stories</a> </h3>
@@ -257,7 +256,7 @@
                   <li><a href="http://www.mnhs.org/contact">Contact Info &amp; Departments</a></li>
                   <li><a href="http://www.mnhs.org/reports">Reports</a></li>
 				   <li><a href="http://legacy.mnhs.org">Legacy Amendment</a></li>
-                  <li><a href="http://events.mnhs.org/media/index.php" title="">Media Room</a></li>
+                  <li><a href="http://www.mnhs.org/media" title="">Media Room</a></li>
                   <li><a href="http://www.mnhs.org/internships">Internships</a></li>
                   <li><a href="http://www.mnhs.org/fellowships">Fellowships</a></li>
                   <li><a href="http://www.mnhs.org/volunteers">Volunteers</a></li>
