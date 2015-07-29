@@ -40,10 +40,11 @@
  * Container
  * ==========================================================
  */
-
+/* commented out because it conflicts with the menu dropdown at mobile size
 body {
-  min-width: 960px;
+ * min-width: 960px;
 }
+*/
 
 #zone-footer-wrapper .container-16 {
   margin-left: auto;
