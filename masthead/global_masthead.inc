@@ -17,7 +17,7 @@
         <div id="secondaryLinks">
           <ul>
             <li><a href="http://sites.mnhs.org/support/make-gift">Donate</a></li>
-            <li> <a href="http://www.mnhs.org/calendar">Calendar </a> | </li>
+            <li> <a href="http://www.mnhs.org/calendar">Calendar</a> | </li>
             <li><a href="http://shop.mnhs.org">Shop</a> | </li>
             <li><a href="http://sites.mnhs.org/support/membership">Membership</a> | </li>
           </ul>
@@ -132,8 +132,8 @@
 						<li><a href="http://www.mnhs.org/newspapers">Digital Newspapers</a></li>
 						<li><a href="http://collections.mnhs.org/voicesofmn/">Oral History Collection</a></li>
 						<li><a href="http://collections.mnhs.org/maps/">Maps</a></li>
-						<li><a href="http://nrhp.mnhs.org/">National Register of Historic Places</a></li>
-						<li><a href="http://mnplaces.mnhs.org/upham/">Minnesota Place Names</a></li>
+						<li><a href="http://www.mnhs.org/nrhp">National Register of Historic Places</a></li>
+						<li><a href="http://www.mnhs.org/mnplaces">Minnesota Place Names</a></li>
 					</ul>
               </div>
               <div class="col_6"> <a href="http://sites.mnhs.org/library">
@@ -184,14 +184,14 @@
                   <li> <a href="http://www.mnhs.org/market/mhspress/minnesotahistory/index">Minnesota History Magazine</a> </li>
                   <li> <a href="http://www.mnhs.org/mnhspress">MNHS Press Books</a> </li>
                   <li> <a href="http://www.mnopedia.org/thisday">This Day in Minnesota History</a> </li>
-                   <li> <a href="http://www.mnhs.org/historyroulette">Minnesota History Roulette</a> </li>
+                  
                 </ul>
                 <h3> <a href="http://www.mnhs.org/explore#stories">Your Stories</a> </h3>
                 <ul>
                   <li> <a href="http://education.mnhs.org/immigration/">Becoming Minnesotan: Recent Immigrants and Refugees</a> </li>
                   <li> <a href="http://legacy.mnhs.org/transitions/">Transitions: University Avenue</a> </li>
                   <li> <a href="http://legacy.mnhs.org/sharing-community-stories/projects">Sharing Community Stories</a> </li>
-                  <li> <a href="http://www.mnhs.org/people/mngg/index.htm">Stories of Minnesota&#039;s Greatest Generation</a> </li>
+                  <li> <a href="http://www.mnhs.org/people/mngg/">Stories of Minnesota&#039;s Greatest Generation</a> </li>
                   <li> <a href="http://www.placeography.org/index.php/Main_Page">Placeography</a> </li>
                   
 
@@ -213,6 +213,7 @@
                   <li> <a href="http://collections.mnhs.org/mnauthors/">Minnesota Author Biographies</a> </li>
                   <li> <a href="http://collections.mnhs.org/battleflags/">The Battle Flags of Minnesota</a> </li>
                   <li> <a href="http://collections.mnhs.org/governors/">Governors of Minnesota</a> </li>
+				  <li> <a href="http://www.mnhs.org/talesoftheterritory/">Tales of the Territory</a> </li>
                   <li> <a href="http://www.mnhs.org/forestsfieldsfalls">Forests, Fields and the Falls</a> </li>
                   <li> <a href="http://www.mnhs.org/exhibits/lakestreet/interactive/master.html">21A - Right on Lake Street</a> </li>
                   <li> <a href="http://collections.mnhs.org/mondale/">Walter F. Mondale Collection</a> </li>
@@ -256,9 +257,10 @@
                   <li><a href="http://www.mnhs.org/contact">Contact Info &amp; Departments</a></li>
                   <li><a href="http://www.mnhs.org/reports">Reports</a></li>
 				   <li><a href="http://legacy.mnhs.org">Legacy Amendment</a></li>
+				   <li><a href="http://www.mnhs.org/sustainability">Sustainability</a></li>
                   <li><a href="http://www.mnhs.org/media" title="">Media Room</a></li>
                   <li><a href="http://www.mnhs.org/internships">Internships</a></li>
-                  <li><a href="http://www.mnhs.org/fellowships">Fellowships</a></li>
+                  <li><a href="http://www.mnhs.org/fellowships">Fellowships & Residencies</a></li>
                   <li><a href="http://www.mnhs.org/volunteers">Volunteers</a></li>
                   <li><a href="http://www.mnhs.org/jobs">Jobs</a></li>
                 </ul>
