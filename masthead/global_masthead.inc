@@ -1,3 +1,4 @@
+<div id="zone-header-wrapper">
 <!-- ****Start Masthead**** -->
 <div id="masthead">
   <div class="container-12">
@@ -375,7 +376,7 @@
 </div>
 </div>
 <!-- End Navbar --> 
-<link rel='stylesheet' type='text/css' media='all' href="/static/masthead/navbar-min.css" />
+
 <!--[if lt IE 9]>
 <script src="https://cdn.polyfill.io/v1/polyfill.min.js"></script>
 <![endif]--> 
